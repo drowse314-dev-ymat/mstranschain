@@ -13,6 +13,6 @@ setup(name='mstranschain',
       py_modules=['mstranschain',],
       requires=['ssl', 'microsofttranslator'],
       provides=['mstranschain'],
-      package_data=['README.md', 'LICENCE'],
+      package_data={'mstranschain': ['README.md', 'LICENCE']},
       license='MIT',
       )
