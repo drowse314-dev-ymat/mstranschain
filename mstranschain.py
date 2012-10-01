@@ -28,7 +28,7 @@ class ChainTranslator(object):
         >>> from mstranschain import ChainTranslator
         >>> chain_translator = ChainTranslator('<Your Client ID>', '<Your Client Secret>')
         >>> print(chain_translator.translate("おはよう、諸君。", chain=['ja', 'en', 'pt', 'ja'])
-        u""
+        u"\u826f\u3044\u65e5\u306f\u3001\u7d33\u58eb\u3067\u3059\u3002"
     """
 
     def __init__(self, client_id, client_secret):
