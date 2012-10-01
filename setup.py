@@ -14,5 +14,5 @@ setup(name='mstranschain',
       requires=['ssl', 'microsofttranslator'],
       provides=['mstranschain'],
       package_data=['README.md', 'LICENCE'],
-      licence='MIT',
+      license='MIT',
       )
