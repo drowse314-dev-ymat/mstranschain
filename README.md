@@ -12,6 +12,8 @@ Chain Translator
 ----
 This module is a utility for chaining (applying one after another) translation between multiple languages on an arbitraly text.  The module uses `microsofttranslator`, a third party Python API to Microsoft Translator API, for the core operatoin of translation.
 
+Please note that I created this package for my own use, and the quality seems rough...
+
 Usage:
     > `>>> from mstranschain import ChainTranslator`
     > `>>> chain_translator = ChainTranslator('<Your Client ID>', '<Your Client Secret>')`
