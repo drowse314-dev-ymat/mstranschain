@@ -14,8 +14,8 @@ This module is a utility for chaining (applying one after another) translation b
 
 Please note that I created this package for my own use and for fun, and the quality seems rough...
 
-Usage:
-::
+## Usage
+
         >>> from mstranschain import ChainTranslator
         >>> chain_translator = ChainTranslator('<Your Client ID>', '<Your Client Secret>')
         >>> print(chain_translator.translate("おはよう、諸君。", chain=['ja', 'en', 'pt', 'ja'])
